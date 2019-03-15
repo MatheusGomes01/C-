@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{8E66B28D-C92C-4B24-8A84-F10CE15FD868}|Default">
+  <MonoDevelop.Ide.ItemProperties.EscopoInicializacao PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EscopoInicializacao/Program.cs">
+    <Files>
+      <File FileName="EscopoInicializacao/Program.cs" Line="12" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EscopoInicializacao" expanded="True">
+            <Node name="EscopoInicializacao" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
