@@ -21,7 +21,7 @@ namespace ProblemaProduto
             Console.Write("Quantidade no estoque: ");
             p.Quantidade = int.Parse(Console.ReadLine());
 
-            Console.Write("Dados do produto: " + p.Nome);
+            Console.Write("Dados do produto: " + p);
                       
 
             /*

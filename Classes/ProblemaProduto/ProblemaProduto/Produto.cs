@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+
 namespace ProblemaProduto
 {
     public class Produto
@@ -11,5 +13,13 @@ namespace ProblemaProduto
         {
             return Preco * Quantidade;
         }
+
+
+        public override string ToString()
+        {
+            return Nome + ", $ " + Preco.ToString("F2", CultureInfo.InvariantCulture)
+            + "," + Quantidade + "unidade , Total: $"  + ValorTotalEstoque().ToString("F2", CultureInfo.InvariantCulture
+                ); 
+       }
     }
 }
