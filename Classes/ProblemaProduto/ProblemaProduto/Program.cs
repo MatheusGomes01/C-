@@ -22,12 +22,30 @@ namespace ProblemaProduto
             p.Quantidade = int.Parse(Console.ReadLine());
 
             Console.Write("Dados do produto: " + p);
-                      
+
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser adicionado");
+            int qtd = int.Parse(Console.ReadLine());
+
+            p.AdicionarProdutos(qtd);
+
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados" + p);
+
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser removido");
+            qtd = int.Parse(Console.ReadLine());
+
+            p.RemoverProdutos(qtd);
+
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados" + p);
+
 
             /*
             var valorFormatado = string.Format("R$ {0:#,###.##}", 1234.32);
             Console.WriteLine(valorFormatado);
-            */          
+            */
         }
     }
 }
