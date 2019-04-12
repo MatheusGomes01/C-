@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetorProduto", "VetorProduto\VetorProduto.csproj", "{8EC29315-1D58-4004-863C-DA22C28C5472}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EC29315-1D58-4004-863C-DA22C28C5472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC29315-1D58-4004-863C-DA22C28C5472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC29315-1D58-4004-863C-DA22C28C5472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC29315-1D58-4004-863C-DA22C28C5472}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
