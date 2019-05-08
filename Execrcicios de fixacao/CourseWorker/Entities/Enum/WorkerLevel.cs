@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Worker
+namespace CourseWorker.Entities.Enums
 {
-    class Program
+    enum WorkerLevel : int
     {
-        static void Main(string[] args)
-        {
-        }
+        Junior = 0,
+        MidLevel = 1,
+        Senior = 2
     }
 }
