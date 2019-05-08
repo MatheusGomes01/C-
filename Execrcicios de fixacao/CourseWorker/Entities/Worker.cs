@@ -1,4 +1,5 @@
 ﻿using System;
+using CourseWorker.Entities.Enum;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,12 +15,12 @@ namespace CourseWorker.Entities
         public Departament Departament { get; set; } // associacao entre duas classes diferentes
         public List<HourContract> Contracts { get; set; } = new List<HourContract>(); //lista para representar os contratos dos trabalhadores
 
-        public Worke()
+        public Worker()
         {
 
         }
 
-        public Worke(string name, WorkerLevel level, double baseSalary, Departament departament)
+        public Worker(string name, WorkerLevel level, double baseSalary, Departament departament)
         {
             Name = name;
             Level = level;
