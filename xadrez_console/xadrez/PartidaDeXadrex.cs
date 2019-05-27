@@ -127,7 +127,7 @@ namespace xadrez
             colorcarNovaPeca('d', 2, new Torre(tab, Cor.Branca));
             colorcarNovaPeca('e', 2, new Torre(tab, Cor.Branca));
             colorcarNovaPeca('e', 1, new Torre(tab, Cor.Branca));
-            colorcarNovaPeca('d', 1, new Torre(tab, Cor.Branca));
+            colorcarNovaPeca('d', 1, new Rei(tab, Cor.Branca));
 
 
             colorcarNovaPeca('c', 7, new Torre(tab, Cor.Preta));
@@ -135,7 +135,7 @@ namespace xadrez
             colorcarNovaPeca('d', 7, new Torre(tab, Cor.Preta));
             colorcarNovaPeca('e', 7, new Torre(tab, Cor.Preta));
             colorcarNovaPeca('e', 8, new Torre(tab, Cor.Preta));
-            colorcarNovaPeca('d', 8, new Torre(tab, Cor.Preta));
+            colorcarNovaPeca('d', 8, new Rei(tab, Cor.Preta));
 
         }
     }
