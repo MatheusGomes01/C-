@@ -233,13 +233,40 @@ namespace xadrez
         private void colocarPecas()
         {
       
-            colorcarNovaPeca('c', 1, new Torre(tab, Cor.Branca));
-            colorcarNovaPeca('d', 1, new Rei(tab, Cor.Branca));
-            colorcarNovaPeca('h', 7, new Torre(tab, Cor.Branca));
+            colorcarNovaPeca('a', 1, new Torre(tab, Cor.Branca));
+            colorcarNovaPeca('b', 1, new Cavalo(tab, Cor.Branca));
+            colorcarNovaPeca('c', 1, new Bispo(tab, Cor.Branca));
+            colorcarNovaPeca('d', 1, new Dama(tab, Cor.Branca));
+            colorcarNovaPeca('e', 1, new Rei(tab, Cor.Branca));
+            colorcarNovaPeca('f', 1, new Bispo(tab, Cor.Branca));
+            colorcarNovaPeca('g', 1, new Cavalo(tab, Cor.Branca));
+            colorcarNovaPeca('h', 1, new Torre(tab, Cor.Branca));
+            colorcarNovaPeca('a', 2, new Peao(tab, Cor.Branca));
+            colorcarNovaPeca('b', 2, new Peao(tab, Cor.Branca));
+            colorcarNovaPeca('c', 2, new Peao(tab, Cor.Branca));
+            colorcarNovaPeca('d', 2, new Peao(tab, Cor.Branca));
+            colorcarNovaPeca('e', 2, new Peao(tab, Cor.Branca));
+            colorcarNovaPeca('f', 2, new Peao(tab, Cor.Branca));
+            colorcarNovaPeca('g', 2, new Peao(tab, Cor.Branca));
+            colorcarNovaPeca('h', 2, new Peao(tab, Cor.Branca));
 
 
-            colorcarNovaPeca('a', 8, new Rei(tab, Cor.Preta));
-            colorcarNovaPeca('b', 8, new Torre(tab, Cor.Preta));
+            colorcarNovaPeca('a', 8, new Torre(tab, Cor.Preta));
+            colorcarNovaPeca('b', 8, new Cavalo(tab, Cor.Preta));
+            colorcarNovaPeca('c', 8, new Bispo(tab, Cor.Preta));
+            colorcarNovaPeca('d', 8, new Dama(tab, Cor.Preta));
+            colorcarNovaPeca('e', 8, new Rei(tab, Cor.Preta));
+            colorcarNovaPeca('f', 8, new Bispo(tab, Cor.Preta));
+            colorcarNovaPeca('g', 8, new Cavalo(tab, Cor.Preta));
+            colorcarNovaPeca('h', 8, new Torre(tab, Cor.Preta));
+            colorcarNovaPeca('a', 7, new Peao(tab, Cor.Preta));
+            colorcarNovaPeca('b', 7, new Peao(tab, Cor.Preta));
+            colorcarNovaPeca('c', 7, new Peao(tab, Cor.Preta));
+            colorcarNovaPeca('d', 7, new Peao(tab, Cor.Preta));
+            colorcarNovaPeca('e', 7, new Peao(tab, Cor.Preta));
+            colorcarNovaPeca('f', 7, new Peao(tab, Cor.Preta));
+            colorcarNovaPeca('g', 7, new Peao(tab, Cor.Preta));
+            colorcarNovaPeca('h', 7, new Peao(tab, Cor.Preta));
 
         }
     }
