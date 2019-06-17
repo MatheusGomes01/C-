@@ -25,7 +25,7 @@ namespace CourseInterfaces.Entities
         {
             return "BasePayment: " + BasePayment.ToString("F2", CultureInfo.InvariantCulture) +
                 "\nTax: " + Tax.ToString("F2", CultureInfo.InvariantCulture) +
-                "\nTotalPayment: " + Tax.ToString("F2", CultureInfo.InvariantCulture);
+                "\nTotalPayment: " + TotalPayment.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
