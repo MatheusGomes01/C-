@@ -13,6 +13,13 @@ namespace CourseInterfaces
             /*
              Interface e um tipo que define um tipo de operacoes que uma classe (ou um struct) deve implementar
              Estabele um contrato que a classe(ou struct) deve seguir
+
+            inversão de controle --> padrao de desenvolvimento que conssite em retirar da classe a responsabilidade de 
+            instanciar suas dependencias
+
+            injeção de dependencia  --> informa o objeto através do construtor, é uma forma de realizar a inversao de controle:
+            um componente externo instancia a dependencia, que é entao injetada no objeto "pai". Pode ser implementada de várias
+            maneiras: Contrutor, Objeto de instanciacao (builder/factory), Container/Framework
              */
 
             Console.WriteLine("Enter rental date");
@@ -29,7 +36,7 @@ namespace CourseInterfaces
             double day = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             CarRental carRental = new CarRental(start, finish, new Vehicle(model));
-            RentalService rentalService = new RentalService(hour, day);
+            RentalService rentalService = new RentalService(hour, day, new BrazilTaxService());
             rentalService.ProcessInvoice(carRental);
             Console.WriteLine("Invoice: ");
             Console.WriteLine(carRental.Envoice);
