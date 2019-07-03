@@ -39,6 +39,13 @@ namespace SalesWebMVC
                     (consultas, salvar, atualizar, deletar) para um entidade.
             DbSet<TEntity> --> representa a coleção de entidades de um dado tipo em um contexto. Tipicamente
             corresponde a uma tabela do bd
+
+            //SalesWebMVCContext --> nome da classe dentro da pasta data
+            //SalesWebMVC --> nome do projeto (Assembly)
+            //para usar o MySql --> install-package Pomelo.EntityFrameworkCore.MySql
+
+            //Add-Migration -- gera o banco de dados a partir das informacoes (pasta migration)
+            //Update-Database -- roda o migration e gera o banco de dados com as tabelas prontas
              */
         }
 
