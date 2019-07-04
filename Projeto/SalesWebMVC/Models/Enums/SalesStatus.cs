@@ -7,8 +7,8 @@ namespace SalesWebMVC.Models.Enums
 {
     public enum SalesStatus : int
     {
-        Peding,
-        Billed,
-        Canceled
+        Pending = 0,
+        Billed = 1,
+        Canceled = 2
     }
 }
